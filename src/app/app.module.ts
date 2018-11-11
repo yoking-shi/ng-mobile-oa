@@ -14,6 +14,7 @@ import { AppliesIndexComponent } from './views/applies/index.component';
 import { AppliesShowComponent } from './views/applies/show.component';
 import { AppliesNewComponent } from './views/applies/new.component';
 import { SplashIndexComponent } from './views/splash/index.component';
+import { LinkListComponent } from './components/link-list/index.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { SplashIndexComponent } from './views/splash/index.component';
     AppliesIndexComponent,
     AppliesShowComponent,
     AppliesNewComponent,
+    LinkListComponent,
   ],
   imports: [
     BrowserModule,
