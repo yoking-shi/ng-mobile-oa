@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'mine-index',
+  selector: 'login-index',
   templateUrl: './index.component.html',
   styleUrls: ['./index.component.scss']
 })
-export class MineIndexComponent implements OnInit {
+export class LoginIndexComponent implements OnInit {
 
   constructor() { }
 
