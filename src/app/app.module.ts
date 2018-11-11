@@ -13,10 +13,12 @@ import { AppsIndexComponent } from './views/apps/index.component';
 import { AppliesIndexComponent } from './views/applies/index.component';
 import { AppliesShowComponent } from './views/applies/show.component';
 import { AppliesNewComponent } from './views/applies/new.component';
+import { SplashIndexComponent } from './views/splash/index.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    SplashIndexComponent,
     HomeIndexComponent,
     MineIndexComponent,
     MineNoticesComponent,
