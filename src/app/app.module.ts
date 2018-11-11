@@ -9,7 +9,10 @@ import { MineNoticesComponent } from './views/mine/notices.component';
 import { MineAppliesComponent } from './views/mine/applies.component';
 import { MineApprovalsComponent } from './views/mine/approvals.component';
 import { LoginIndexComponent } from './views/login/index.component';
-import { IndexComponent } from './views/apps/index.component';
+import { AppsIndexComponent } from './views/apps/index.component';
+import { AppliesIndexComponent } from './views/applies/index.component';
+import { AppliesShowComponent } from './views/applies/show.component';
+import { AppliesNewComponent } from './views/applies/new.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { IndexComponent } from './views/apps/index.component';
     MineAppliesComponent,
     MineApprovalsComponent,
     LoginIndexComponent,
-    IndexComponent,
+    AppsIndexComponent,
+    AppliesIndexComponent,
+    AppliesShowComponent,
+    AppliesNewComponent,
   ],
   imports: [
     BrowserModule,
